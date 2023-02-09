@@ -1,0 +1,15 @@
+// configuracion extra de javascript
+
+{
+    "exclude": [
+        "node_modules"
+    ],
+    "compilerOptions": {
+        "baseUrl": "src",
+        "paths": {
+            "#apiServices/*": [
+                "./apiServices/*"
+            ]
+        },
+    }
+}

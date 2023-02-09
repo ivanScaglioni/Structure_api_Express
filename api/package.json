@@ -1,0 +1,21 @@
+{
+
+  "type": "module",
+  "scripts": {
+    "dev":"nodemon server.js"
+  },
+  "imports": {
+    "#apiServices/*": [
+      "./apiServices/*"
+    ]
+  },
+  "dependencies": {
+    
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "dotenv": "^16.0.3"
+  }
+}
